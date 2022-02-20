@@ -1,0 +1,610 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 900
+  ClientWidth = 1200
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = MostLeft
+    Size.Width = 900.000000000000000000
+    Size.Height = 900.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnResize = Panel1Resize
+    object Image1: TImage
+      MultiResBitmap = <
+        item
+        end>
+      Align = Client
+      Margins.Left = 5.000000000000000000
+      Margins.Top = 5.000000000000000000
+      Margins.Right = 5.000000000000000000
+      Margins.Bottom = 5.000000000000000000
+      Size.Width = 890.000000000000000000
+      Size.Height = 890.000000000000000000
+      Size.PlatformDefault = False
+      OnResize = Image1Resize
+    end
+    object Layout1: TLayout
+      Position.X = 600.000000000000000000
+      Position.Y = 72.000000000000000000
+      Size.Width = 206.000000000000000000
+      Size.Height = 129.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object FPSTextLabel: TLabel
+        Align = Left
+        Size.Width = 97.000000000000000000
+        Size.Height = 129.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.VertAlign = Leading
+        Text = 'FPSText'
+        TabOrder = 2
+      end
+      object FPSLabel: TLabel
+        Align = Left
+        Position.X = 97.000000000000000000
+        Size.Width = 56.000000000000000000
+        Size.Height = 129.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.VertAlign = Leading
+        Text = 'FPS2'
+        TabOrder = 1
+      end
+      object FPSprocentLabel: TLabel
+        Align = Left
+        Position.X = 153.000000000000000000
+        Size.Width = 56.000000000000000000
+        Size.Height = 129.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.VertAlign = Leading
+        Text = 'FPS2'
+        TabOrder = 0
+      end
+    end
+  end
+  object Panel2: TPanel
+    Align = Client
+    Size.Width = 300.000000000000000000
+    Size.Height = 900.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    object LogMemo: TMemo
+      Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+      DataDetectorTypes = []
+      Align = MostBottom
+      Position.Y = 656.000000000000000000
+      Size.Width = 300.000000000000000000
+      Size.Height = 244.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      Viewport.Width = 296.000000000000000000
+      Viewport.Height = 240.000000000000000000
+    end
+    object TabControl1: TTabControl
+      Align = Client
+      Size.Width = 300.000000000000000000
+      Size.Height = 626.000000000000000000
+      Size.PlatformDefault = False
+      TabIndex = 0
+      TabOrder = 3
+      TabPosition = PlatformDefault
+      Sizes = (
+        300s
+        600s
+        300s
+        600s
+        300s
+        600s)
+      object TabItem1: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = True
+        Size.Width = 69.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'TabItem1'
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        object Panel3: TPanel
+          Align = MostTop
+          Size.Width = 300.000000000000000000
+          Size.Height = 180.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          object AddBacButton: TButton
+            Align = MostBottom
+            Position.Y = 150.000000000000000000
+            Size.Width = 300.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = 'AddBacButton'
+            OnClick = AddBacButtonClick
+          end
+          object GridPanelLayout1: TGridPanelLayout
+            Align = Client
+            Size.Width = 300.000000000000000000
+            Size.Height = 150.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            ColumnCollection = <
+              item
+                Value = 50.000000000000000000
+              end
+              item
+                Value = 50.000000000000000000
+              end>
+            ControlCollection = <
+              item
+                Column = 1
+                Control = CountEdit
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = SizeEdit
+                Row = 1
+              end
+              item
+                Column = 0
+                Control = Label1
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = Label2
+                Row = 1
+              end
+              item
+                Column = 0
+                Control = Label3
+                Row = 2
+              end
+              item
+                Column = 1
+                Control = SpeedEdit
+                Row = 2
+              end
+              item
+                Column = 0
+                Control = Label4
+                Row = 3
+              end
+              item
+                Column = 1
+                Control = Edit2
+                Row = 3
+              end
+              item
+                Column = 0
+                Control = Label5
+                Row = 4
+              end
+              item
+                Column = 1
+                Control = Edit1
+                Row = 4
+              end>
+            RowCollection = <
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end>
+            object CountEdit: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 0
+              Text = '10'
+              Position.X = 175.000000000000000000
+              Position.Y = 4.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+            end
+            object SizeEdit: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 4
+              Text = '10'
+              Position.X = 175.000000000000000000
+              Position.Y = 34.000000000000000000
+            end
+            object Label1: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = #1050#1086#1083#1080#1095#1077#1089#1090#1074#1086
+              TabOrder = 9
+            end
+            object Label2: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = #1056#1072#1079#1084#1077#1088
+              TabOrder = 8
+            end
+            object Label3: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = #1057#1082#1086#1088#1086#1089#1090#1100
+              TabOrder = 7
+            end
+            object SpeedEdit: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 3
+              Text = '10'
+              Position.X = 175.000000000000000000
+              Position.Y = 64.000000000000000000
+            end
+            object Label4: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = #1056#1072#1079#1084#1077#1088
+              TabOrder = 6
+            end
+            object Edit2: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 2
+              Text = '10'
+              Position.X = 175.000000000000000000
+              Position.Y = 94.000000000000000000
+            end
+            object Label5: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = #1059#1075#1086#1083
+              TabOrder = 5
+            end
+            object Edit1: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 1
+              Text = '10'
+              Position.X = 175.000000000000000000
+              Position.Y = 124.000000000000000000
+            end
+          end
+        end
+        object TestButton: TButton
+          Position.X = 136.000000000000000000
+          Position.Y = 534.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 51.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'TestButton'
+          OnClick = TestButtonClick
+        end
+        object Panel5: TPanel
+          Align = Top
+          Position.Y = 180.000000000000000000
+          Size.Width = 300.000000000000000000
+          Size.Height = 205.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          object GridPanelLayout2: TGridPanelLayout
+            Align = Client
+            Size.Width = 300.000000000000000000
+            Size.Height = 175.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 3
+            ColumnCollection = <
+              item
+                Value = 50.000000000000000000
+              end
+              item
+                Value = 50.000000000000000000
+              end>
+            ControlCollection = <
+              item
+                Column = 1
+                Control = FPSEdit
+                Row = 0
+              end
+              item
+                Column = 1
+                Control = AnimSpeedEdit
+                Row = 1
+              end
+              item
+                Column = 0
+                Control = Label8
+                Row = 0
+              end
+              item
+                Column = 0
+                Control = Label9
+                Row = 1
+              end
+              item
+                Column = 0
+                Control = Label10
+                Row = 2
+              end
+              item
+                Column = 1
+                Control = AnimMasEdit
+                Row = 2
+              end
+              item
+                Column = 0
+                Control = Label11
+                Row = 3
+              end
+              item
+                Column = 1
+                Control = Edit6
+                Row = 3
+              end
+              item
+                Column = 0
+                Control = Label12
+                Row = 4
+              end
+              item
+                Column = 1
+                Control = Edit7
+                Row = 4
+              end>
+            RowCollection = <
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Absolute
+                Value = 30.000000000000000000
+              end
+              item
+                SizeStyle = Auto
+              end
+              item
+                SizeStyle = Auto
+              end>
+            object FPSEdit: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 0
+              Text = '30'
+              Position.X = 175.000000000000000000
+              Position.Y = 4.000000000000000000
+              Margins.Left = 5.000000000000000000
+              Margins.Top = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Margins.Bottom = 5.000000000000000000
+            end
+            object AnimSpeedEdit: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 4
+              Text = '1'
+              Position.X = 175.000000000000000000
+              Position.Y = 34.000000000000000000
+            end
+            object Label8: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = 'FPS'
+              TabOrder = 9
+            end
+            object Label9: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = #1057#1082#1086#1088#1086#1089#1090#1100
+              TabOrder = 8
+            end
+            object Label10: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = #1052#1072#1089#1096#1090#1072#1073
+              TabOrder = 7
+            end
+            object AnimMasEdit: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 3
+              Text = '1'
+              Position.X = 175.000000000000000000
+              Position.Y = 64.000000000000000000
+            end
+            object Label11: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = #1056#1072#1079#1084#1077#1088
+              TabOrder = 6
+            end
+            object Edit6: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 2
+              Text = '10'
+              Position.X = 175.000000000000000000
+              Position.Y = 94.000000000000000000
+            end
+            object Label12: TLabel
+              Align = Client
+              Margins.Left = 5.000000000000000000
+              Margins.Right = 5.000000000000000000
+              Size.Width = 140.000000000000000000
+              Size.Height = 30.000000000000000000
+              Size.PlatformDefault = False
+              Text = #1059#1075#1086#1083
+              TabOrder = 5
+            end
+            object Edit7: TEdit
+              Touch.InteractiveGestures = [LongTap, DoubleTap]
+              Anchors = []
+              TabOrder = 1
+              Text = '10'
+              Position.X = 175.000000000000000000
+              Position.Y = 124.000000000000000000
+            end
+          end
+          object UpdateSettButton: TButton
+            Align = MostBottom
+            Position.Y = 175.000000000000000000
+            Size.Width = 300.000000000000000000
+            Size.Height = 30.000000000000000000
+            Size.PlatformDefault = False
+            TabOrder = 0
+            Text = #1054#1073#1085#1086#1074#1080#1090#1100' '#1085#1072#1089#1090#1088#1086#1081#1082#1080
+            OnClick = UpdateSettButtonClick
+          end
+        end
+      end
+      object TabItem2: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 69.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'TabItem2'
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+      end
+      object TabItem3: TTabItem
+        CustomIcon = <
+          item
+          end>
+        IsSelected = False
+        Size.Width = 69.000000000000000000
+        Size.Height = 26.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = ''
+        TabOrder = 0
+        Text = 'TabItem3'
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+      end
+    end
+    object Timer1: TTimer
+      Enabled = False
+      Interval = 30
+      OnTimer = Timer1Timer
+      Left = 576
+      Top = 344
+    end
+    object Panel4: TPanel
+      Align = MostTop
+      Size.Width = 300.000000000000000000
+      Size.Height = 30.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object Button1: TButton
+        Align = MostRight
+        Position.X = 270.000000000000000000
+        Size.Width = 30.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        StyleLookup = 'playtoolbuttonbordered'
+        TabOrder = 0
+        Text = 'Button1'
+        OnClick = Button1Click
+      end
+      object Label6: TLabel
+        Align = Left
+        Size.Width = 73.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Label6'
+        TabOrder = 2
+      end
+      object Label7: TLabel
+        Align = Left
+        Position.X = 73.000000000000000000
+        Size.Width = 120.000000000000000000
+        Size.Height = 30.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Label7'
+        TabOrder = 3
+      end
+    end
+  end
+end

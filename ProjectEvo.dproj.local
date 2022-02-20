@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.935,=C:\Users\kaoyu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.884,C:\Users\kaoyu\source\repos\Evolution\Redraw.pas=C:\Users\kaoyu\source\repos\Evolution\RedrawUnit.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.445,C:\Users\kaoyu\source\repos\Evolution\TBacteryUnit.pas=C:\Users\kaoyu\source\repos\Evolution\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.093,C:\Users\kaoyu\source\repos\Evolution\MyUnit.pas=C:\Users\kaoyu\source\repos\Evolution\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.080,C:\Users\kaoyu\source\repos\Evolution\MainUnit.fmx=C:\Users\kaoyu\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.820,=C:\Users\kaoyu\source\repos\Evolution\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.767,C:\Users\kaoyu\source\repos\Evolution\ProjectEvo.dproj=C:\Users\kaoyu\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.080,C:\Users\kaoyu\source\repos\Evolution\MainUnit.pas=C:\Users\kaoyu\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.027,C:\Users\kaoyu\source\repos\Evolution\Unit1.pas=C:\Users\kaoyu\source\repos\Evolution\Redraw.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.542,=C:\Users\kaoyu\source\repos\Evolution\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.138,=C:\Users\kaoyu\source\repos\Evolution\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
